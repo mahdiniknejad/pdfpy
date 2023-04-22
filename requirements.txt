@@ -1,4 +1,7 @@
 beautifulsoup4==4.12.2
+html5lib==1.1
 Pillow==9.5.0
 reportlab==3.6.12
+six==1.16.0
 soupsieve==2.4.1
+webencodings==0.5.1
