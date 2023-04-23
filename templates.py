@@ -7,7 +7,7 @@ class Html:
         with open(file, mode='r') as f:
             html = f.read()
         soup = BeautifulSoup(html, 'html5lib')
-        self.soup = soup
+        self.soup = soup.prettify()
     
     # def __iter__(self):
     #     self.a = 1
