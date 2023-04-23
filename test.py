@@ -1,5 +1,5 @@
-from .templates import HTML
+from mypydoc import templates
 
 
 if __name__ == '__main__':
-    obj = HTML()
+    obj = templates.Html()
