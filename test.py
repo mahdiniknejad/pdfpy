@@ -2,4 +2,4 @@ from mypydoc import templates
 
 
 if __name__ == '__main__':
-    obj = templates.Html()
+    obj = templates.Html("./test.html")

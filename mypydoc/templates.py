@@ -8,6 +8,7 @@ class Html:
             html = f.read()
         soup = BeautifulSoup(html, 'html5lib')
         self.soup = soup.prettify()
+        self.soup_list = self.soup.splitlines()
     
     # def __iter__(self):
     #     self.a = 1
